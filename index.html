@@ -75,12 +75,14 @@
     }
 
     function getEnvironment() {
+      document.getElementById("os").append(liff.getOS())
     }
+  
 
     async function main() {
       alert("LINE Developers x Skooldio")
       await liff.init({ liffId: "1655087120-DKB80O99" })
-      // getEnvironment()
+      getEnvironment()
       // getUserProfile()
       // getContext()
       // getFriendship()
