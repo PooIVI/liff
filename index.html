@@ -36,13 +36,13 @@
   <button id="btnLogOut" onclick="logOut()">Log Out</button>
   <button id="btnClose" onclick="closed()">Close</button>
 
- <!-- <script src="js/vconsole.min.js"></script> -->
+  <!-- <script src="js/vconsole.min.js"></script> -->
   <!-- <script>
     var vConsole = new VConsole()
     console.log("Hello World!")
   </script> -->
 
- <!--  <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>-->
+  <!-- <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script> -->
   <script>
     function createUniversalLink() {
     }
@@ -75,19 +75,17 @@
     }
 
     function getEnvironment() {
-    
     }
 
     async function main() {
-      alert("Poom")
+      alert("LINE Developers x Skooldio")
       await liff.init({ liffId: "1655087120-DKB80O99" })
-      
       // getEnvironment()
       // getUserProfile()
       // getContext()
       // getFriendship()
       // createUniversalLink()
-    }}
+    }
     main()
   </script>
 </body>
